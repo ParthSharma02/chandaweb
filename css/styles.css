@@ -7,7 +7,8 @@ body{
     /* background-color: #ABC4AA; */
     /* background-color: #94A684; */
     /* background-color: #FEFFAC; */
-    background-color: #FFB7B7;
+    background: radial-gradient(circle, rgba(136,219,220,1) 18%, rgba(2,0,36,1) 86%, rgba(17,45,50,1) 94%);
+    color: #88dbdc;
   
 }
 h1{
@@ -15,52 +16,126 @@ h1{
     font-weight: 900;
     font-size: 3rem;
     line-height: 1.5;
+    text-align: center;
+    padding-bottom: 20px;
 }
 h2{
     font-family: 'Montserrat-Bold',sans-serif;
     font-weight: 700;
     font-size: 3rem;
+    
 }
 .navbar{
   padding-top: 5px;
   padding-bottom: 5px;
+  color: #88dbdc;
     
 }
 .navbar-brand{
-    color: black;
+    color: #88dbdc;
     padding: 0%;
 }
-.nav-item{
-    color: black;
+
+#navigator{
+    color:#88dbdc ;
 }
+
 .nav-links{
     font-family: "Ubuntu",sans-serif;
     font-size:larger;
 }
-#services{
-    background-color: #FEFFAC;
-}
+
 .parent {
     display: flex;
     flex-direction: row;
     align-items: center;
-  }
-  
-  .parent * {
+    justify-content: center;
+
     padding: 10px;
   }
+
+
+  /* CAROUSEL */
+ #carousel{
+    height: 500px;
+   
+    scroll-behavior: smooth;
+ }
+
+ .carousel-item{
+    height: 500px;
+    background-size: contain;
+    overflow-y: hidden;
+
+ }
+
+
+
+
+  /*  SERVICES */
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    padding: 50px;
+
+    
+    padding-right: 150px;
+    padding-left: 150px;
+    
+
+    background: radial-gradient(circle, rgba(136,219,220,1) 18%, rgba(2,0,36,1) 86%, rgba(17,45,50,1) 94%);
+}
+
+#services{
+    color: #042126;
+    font-weight: bold;
+    font-style: oblique;
+}
+
+
+/* divide */
+
+.divide{
+    background-color: black;
+    height: 40px;
+
+}
+
+/* WHY US */
+#whyus{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding: 50px;
+
+    /* background-color: #254e58; */
+    color: #88dbdc;
+    font-weight: bold;
+    font-style: oblique;
+
+    background: rgb(2,0,36);
+    background: radial-gradient(circle, rgba(2,0,36,1) 72%, rgba(136,219,220,1) 100%, rgba(17,45,50,1) 100%);
+}
+
+/* FOOTER */
 .footimg{
    
     background-image: url('footerimg.jpg');
     background-size: cover;
+    opacity: 90%;
+
     background-position: center;
-    background-color: rgba(0, 0, 0, 0.1); 
+    /* background-color: rgba(0, 0, 0, 0.5);  */
+
+    color: #719d9e;
     
     background-attachment: fixed;
     transition: background-color 0.5s ease;
   
     font-size: 1rem;
     /* font-family: 'Montserrat',sans-serif; */
-    font-weight: 400;
+    font-weight: bold;
+    font-style: oblique;
 
 }
