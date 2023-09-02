@@ -14,6 +14,7 @@ body{
     background: linear-gradient(to right, #EDDE5D, #F09819); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     color: #88dbdc;
     height: 100px;
+    font-weight: bold;
   
 }
 h1{
@@ -139,7 +140,7 @@ h2{
     background-position: center;
     /* background-color: rgba(0, 0, 0, 0.5);  */
 
-    color: #719d9e;
+    color: #edde5d;
     
     background-attachment: fixed;
     transition: background-color 0.5s ease;
